@@ -1,8 +1,21 @@
-# Prism Break
+# prism-break
 
-A neon breakout game: smash the prism bricks, chain the combo, clear all
-three levels. Built for make.fun's "Make the best game" bounty
-(best-game-01).
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/georgeonweb3/prism-break/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/georgeonweb3/prism-break/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+A neon breakout game: smash the prism bricks, chain the combo, clear all three levels. Built for make.fun's "Make the best game" bounty (best-game-01).
+
+## Run it
+
+```sh
+node serve.ts
+# open http://localhost:8080
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=quiet-stork-13&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
 
 ## How to play
 
@@ -20,17 +33,8 @@ press **Space** to launch the ball, start, and restart. **P** pauses,
 - You have 3 lives. Lose the ball and you lose a life; clear all three
   levels to win.
 
-## Run it
-
-No build step, no network: the game is plain static files.
-
-```sh
-node serve.ts
-# open http://localhost:8080
-```
-
 Or serve `game/` with any static server and open `index.html`. It runs in
-any current desktop browser.
+any current desktop browser. No build step, no network.
 
 ## Screenshots
 
